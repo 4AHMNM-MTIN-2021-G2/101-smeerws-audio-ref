@@ -4,6 +4,9 @@
 This project serves as sample project for spatial audio. 
 Explore sound in its basics in virtual reality (VR).
 
+Game description: Aufgabenstellung: 
+
+
 ### Development platform: 
 OS: Windows 10, Game Engine: Unity 2019.1.14f1, Visual Studio 2019, Steam,  
 SteamVR 2.5.0 (https://github.com/ValveSoftware/steamvr_unity_plugin/releases/tag/2.5.0)
