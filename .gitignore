@@ -8,7 +8,11 @@
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
+/[Pp]ackages/
 /[Mm]emoryCaptures/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
 
 /[Aa]ssets/SteamVR/
 /[Aa]ssets/SteamVR_Input/
@@ -21,6 +25,9 @@ Assets/SteamVR.meta
 Assets/SteamVR_Input.meta
 Assets/SteamVR_Resources.meta
 Assets/StreamingAssets.meta
+
+# VR editorsettings
+
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
@@ -66,6 +73,3 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-
-# Asset meta data should only be ignored when the corresponding asset is also ignored
-!/[Aa]ssets/**/*.meta
