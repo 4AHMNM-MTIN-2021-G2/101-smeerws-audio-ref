@@ -1,12 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
+[CreateAssetMenu(menuName = "GameData")]
 public class GameData : ScriptableObject, ISerializationCallbackReceiver 
-{ 
+{
+    public bool isDoorOpened;
+    public bool isPlayerInMaze;
+
     public void OnAfterDeserialize()
     {
-       // Reset Data
+        // Reset Data
+        isDoorOpened = false;
+        isPlayerInMaze = false;
     }
 
     public void OnBeforeSerialize(){}
