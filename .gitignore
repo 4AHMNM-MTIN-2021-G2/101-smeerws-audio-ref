@@ -27,7 +27,7 @@ Assets/SteamVR_Resources.meta
 Assets/StreamingAssets.meta
 
 # VR editorsettings
-
+unityProject.vrmanifest
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
